@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography, Button } from "@mui/material";
-import Banner from "../assets/images/banner.png";
+import Banner from "../assets/images/banner.jpg";
 
 const HomeBanner = () => {
     return (
@@ -19,7 +19,7 @@ const HomeBanner = () => {
             }}
             
         >
-            <Typography color="#FF2625" fontWeight="500" fontSize="25px">
+            <Typography color="#65E7DE" fontWeight="500" fontSize="25px">
                 Fitness Club
             </Typography>
             <Typography
@@ -27,7 +27,8 @@ const HomeBanner = () => {
                 sx={{
                     fontSize: { lg: "44px", sm: "40px" },
                     mb:'23px',
-                    mt:'30px'
+                    mt:'30px',
+                    color:'#FFF',
                 }}
             >
                 Sweat, Smile <br /> Repeat
@@ -45,19 +46,19 @@ const HomeBanner = () => {
             </Typography>
         <Stack>
 
-        <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore Exercises</a>
+        <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#65E7DE', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore Exercises</a>
             {/* <Button
                 href="#exercises"
                 variant="contained"
                 sx={{
-                    background: "#FF2625",
+                    background: "#65E7DE",
                     px: "20px",
                 }}
             >
                 Check
             </Button> */}
             </Stack>
-            <Typography fontWeight={600} color="#FF2625" sx={{
+            <Typography fontWeight={600} color="#65E7DE" sx={{
                 opacity:'0.1',
                 fontSize:'200px',
                 display:{ lg:'block', sm:'none'}

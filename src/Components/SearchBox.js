@@ -81,7 +81,7 @@ const SearchBox = ({setExercises,Bodypart,setBodypart}) => {
           <Button
             className="search-btn"
             sx={{
-              bgcolor: "#FF2625",
+              bgcolor: "#65E7DE",
               color: "#fff",
               textTransform: "none",
               width: { lg: "173px", xs: "80px" },
@@ -102,7 +102,7 @@ const SearchBox = ({setExercises,Bodypart,setBodypart}) => {
         position:'relative',
         p:"20px",
       }}>
-        <HorizontalScrollBar data={BodyParts} Bodypart={Bodypart} setBodypart={setBodypart}/>
+        <HorizontalScrollBar data={BodyParts} Bodypart={Bodypart} setBodypart={setBodypart} isBodyPart/>
       </Box>
     </>
   );

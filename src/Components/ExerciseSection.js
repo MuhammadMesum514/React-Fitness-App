@@ -57,7 +57,7 @@ const ExerciseSection = ({Exercises,setExercises,Bodypart}) => {
         {
           Exercises.length>9 && (
             <Pagination
-            color='standard'
+            color='primary'
             shape="rounded"
             defaultPage={1}
             count={Math.ceil(Exercises.length/9)}
